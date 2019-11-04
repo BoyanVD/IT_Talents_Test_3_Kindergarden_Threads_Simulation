@@ -30,9 +30,6 @@ public class Kindergarden {
 		if(risunka != null) {
 			System.out.println("[ Kindergarden ] Dobavi se risunka za ocvetqvane");
 			this.unpaintedRisunki.put(risunka);
-//			synchronized(this) {
-//				this.notifyAll();
-//			}
 		}
 	}
 	
